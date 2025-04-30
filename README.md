@@ -1,15 +1,15 @@
-# [Nexus](https://github.com/aarontburn/nexus-core): Discord Monkey
+# [Nexus](https://github.com/aarontburn/nexus-core): Slack Monkey
 
-  <img src="./src/assets/icon.png" alt="Discord Monkey Icon" width="200"/>
+  <img src="./src/assets/icon.png" alt="Slack Monkey Icon" width="200"/>
 
-A module for [Nexus](https://github.com/aarontburn/nexus-core) to "embed" Discord as a Nexus module...
+A module for [Nexus](https://github.com/aarontburn/nexus-core) to "embed" Slack as a Nexus module...
 
-And by "embed", this just takes your Discord window and monkeys it around.
+And by "embed", this just takes your Slack window and monkeys it around.
 
 
 
 <p align="center">
-  <img src="./assets/sample-image.png" alt="Discord Monkey Sample" width="1000"/>
+  <img src="./assets/image.png" alt="Slack Monkey Sample" width="1000"/>
 </p>
 
 ## Required Dependencies
@@ -19,7 +19,8 @@ You will need the following modules installed into Nexus.
 
 ### Application Dependencies
 The following applications need to be installed to your computer.
-- [**Discord**](https://discord.com/)
+- [**Slack**](https://slack.com/downloads)
+  - Windows: Download using the `.EXE` installer; Slack from the Microsoft Store (or from the `.MSIX` installer) will prevent you from accessing its executable path which removes some features.
 
 ## Installation
 1. Download and install all dependencies.
@@ -29,12 +30,7 @@ The following applications need to be installed to your computer.
 
 
 ## Usage
-- On startup (or when the `Locate window` button is pressed), Discord Monkey will look for your open Discord window, and, if found within 10 seconds, will start monkeying the window into Nexus.
-- By providing a path to your Discord executable in the Settings, you unlock the following features:
-  -  Opening the Discord app while it's already embedded into Nexus will swap to the Discord Monkey module.
-  -  The `Locate window` button will start a new instance of Discord if one isn't found.
-
-
-
-## Limitations:
-- Discord notifications will appear, but this will hide the red bubble.
+- On startup (or when the `Locate window` button is pressed), Slack Monkey will look for your open Slack window, and, if found within 10 seconds, will start monkeying the window into Slack.
+- By providing a path to your Slack executable in the Settings, you unlock the following features:
+  -  Opening the Slack app while it's already embedded into Slack will swap to the Slack Monkey module.
+  -  The `Locate window` button will start a new instance of Slack if one isn't found.
