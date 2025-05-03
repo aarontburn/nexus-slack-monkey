@@ -1,7 +1,7 @@
 {
-  "name": "nexus-discord-monkey",
+  "name": "nexus-slack-monkey",
   "version": "1.0.0",
-  "description": "'Embedding' Discord as a Nexus module. By monkeying it around.",
+  "description": "'Embedding' Slack as a Nexus module. By monkeying it around.",
   "author": "aarontburn",
   "scripts": {
     "start": "npm run dev_export && cd ./node_modules/@nexus-app/nexus-client/ && npm start",
