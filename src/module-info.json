@@ -1,9 +1,33 @@
 {
-    "name": "{EXPORTED_MODULE_NAME}",
+    "name": "Slack Monkey",
+    "id": "aarontburn.Slack_Monkey",
     "author": "aarontburn",
     "version": "1.0.0",
     "description": "'Embedding' Slack as a Nexus module. By monkeying it around.",
-    "build-version": 6,
     "platforms": [],
-    "link": "https://github.com/aarontburn/nexus-slack-monkey"
+    "link": "https://github.com/aarontburn/nexus-slack-monkey",
+    "build": {
+        "build-version": 6,
+        "excluded": [
+            "electron.ts"
+        ],
+        "included": [],
+        "process": "./process/main.js",
+        "replace": [
+            {
+                "from": "{EXPORTED_MODULE_ID}",
+                "to": "%id%",
+                "at": [
+                    "./process/main.ts"
+                ]
+            },
+            {
+                "from": "{EXPORTED_MODULE_NAME}",
+                "to": "%name%",
+                "at": [
+                    "./process/main.ts"
+                ]
+            }
+        ]
+    }
 }
