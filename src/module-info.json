@@ -2,7 +2,8 @@
     "name": "Slack Monkey",
     "id": "aarontburn.Slack_Monkey",
     "author": "aarontburn",
-    "version": "1.0.1",
+    "author-id": "683193056e5989838dcf772c",
+    "version": "1.0.2",
     "description": "'Embedding' Slack as a Nexus module. By monkeying it around.",
     "platforms": [],
     "link": "https://github.com/aarontburn/nexus-slack-monkey",
@@ -11,7 +12,7 @@
         "git-repo-name": "nexus-slack-monkey"
     },
     "build": {
-        "build-version": 6,
+        "build-version": 7,
         "excluded": [
             "electron.ts"
         ],
